@@ -13,3 +13,4 @@ shot() { # formato ancho alto archivo
 }
 shot land 1600 900  resellers-1600x900.png
 shot feed 1080 1350 resellers-1080x1350.png
+shot story 1080 1920 resellers-historia-1080x1920.png

@@ -41,12 +41,13 @@ Abre http://localhost:8766. Los envíos del formulario se imprimen en la termina
 
 ## Pieza para redes
 
-`redes/pieza-resellers.html` tiene dos formatos:
+`redes/pieza-resellers.html` tiene tres formatos:
 
 | Formato | Tamaño | Dónde |
 |---|---|---|
 | `?f=land` | 1600 × 900 | LinkedIn, X, YouTube |
 | `?f=feed` | 1080 × 1350 | Instagram y LinkedIn en el feed |
+| `?f=story` | 1080 × 1920 | Historias de Instagram y estados de WhatsApp |
 
 Para volver a exportar después de un cambio:
 

@@ -8,6 +8,7 @@
   Dos formatos en el mismo archivo:
     ?f=land  → 1600×900  (LinkedIn, X, YouTube, presentaciones)
     ?f=feed  → 1080×1350 (Instagram y LinkedIn en el feed)
+    ?f=story → 1080×1920 (historias de Instagram y estados de WhatsApp; deja libres 250 px arriba y abajo para la interfaz)
   Para exportar los PNG: bash redes/exportar.sh
 -->
 <style>
@@ -131,6 +132,16 @@ body{font-family:'Inter Variable',Inter,system-ui,sans-serif;color:var(--ink);-w
 .feed .cta{margin-top:40px;height:112px;padding:0 50px 0 34px;font-size:48px}
 .feed .cta .sp{width:56px;height:56px}
 .feed .cursor{right:-58px;bottom:-60px;width:90px}
+
+/* ===== formato historia 1080×1920 (usa la base vertical) ===== */
+.story .art{height:1920px;padding-top:250px}
+.story .main{margin-top:48px}
+.story .mid{flex-direction:column;gap:36px;margin-top:44px;padding:0}
+.story .lead{max-width:none;text-align:center;font-size:37px}
+.story .av{width:112px;height:112px}
+.story .avcap{font-size:27px}
+.story .row{margin-top:44px}
+.story .cta{margin-top:56px}
 </style>
 </head>
 <body>
@@ -188,9 +199,11 @@ body{font-family:'Inter Variable',Inter,system-ui,sans-serif;color:var(--ink);-w
 </div>
 
 <script>
-  // Formato: ?f=land (por defecto) o ?f=feed.
-  const f = new URLSearchParams(location.search).get('f') === 'feed' ? 'feed' : 'land';
+  // Formato: ?f=land (por defecto), ?f=feed o ?f=story (la historia parte de la vertical).
+  const q = new URLSearchParams(location.search).get('f');
+  const f = q === 'feed' || q === 'story' ? 'feed' : 'land';
   document.body.classList.add(f);
+  if (q === 'story') document.body.classList.add('story');
   // En horizontal, la bajada y los círculos se ubican sueltos; en vertical van en una fila (.mid y .row).
   if (f === 'land') {
     document.querySelectorAll('.mid, .row').forEach((w) => { w.replaceWith(...w.children); });
