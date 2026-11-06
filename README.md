@@ -12,7 +12,7 @@ ubits-resellers/
 │   ├── css/site.css             Estilos
 │   ├── js/site.js               Menú móvil, animaciones y envío del formulario
 │   ├── fonts/                   Inter Variable
-│   └── img/                     Logo, Bitto, íconos glass, logos de clientes, og.png
+│   └── img/                     Logo, Bitto, íconos glass, logos de clientes, capturas del portal (producto/), og.png
 ├── redes/
 │   ├── pieza-resellers.html     Pieza para redes (dos formatos en un archivo)
 │   ├── exportar.sh              Exporta los PNG con Google Chrome
