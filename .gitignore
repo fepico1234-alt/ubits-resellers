@@ -1,0 +1,10 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ajustes personales de Claude Code (launch.json sí se versiona)
+.claude/settings.local.json
+
+# Netlify CLI y dependencias que se agreguen después
+.netlify/
+node_modules/

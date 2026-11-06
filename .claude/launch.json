@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "ubits-resellers", "runtimeExecutable": "bun", "runtimeArgs": ["tools/serve.js"], "port": 8766 }
+  ]
+}
