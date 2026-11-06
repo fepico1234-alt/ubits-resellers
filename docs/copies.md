@@ -8,7 +8,7 @@ Todos los textos de la landing y de la pieza para redes, en un solo lugar. Si ca
 
 **Tono:** directo, cercano, de tú. Habla de lo que gana el reseller, no de lo que hace la plataforma. Frases cortas.
 
-> ⚠️ = afirmación que hay que **confirmar con el equipo comercial antes de publicar**. Las cifras de UBITS (+1.000 empresas, +16.000 contenidos, 9 países, ISO 27001) vienen del sitio actual. Las comisiones (20% contrato a 1 año, 25% contrato desde 2 años) y la regla de precio lista / precio mínimo vienen del **Deck Comercial 2026 - Partners**. La tabla de precios por usuario **no** va en la landing: se entrega a cada partner aprobado.
+> ⚠️ = afirmación que hay que **confirmar con el equipo comercial antes de publicar**. Las cifras de UBITS (+1.000 empresas, +19.000 contenidos, 9 países, ISO 27001) vienen del sitio actual. Las comisiones (20% contrato a 1 año, 25% contrato desde 2 años) y la regla de precio lista / precio mínimo vienen del **Deck Comercial 2026 - Partners**. La tabla de precios por usuario **no** va en la landing: se entrega a cada partner aprobado.
 
 ---
 
@@ -24,7 +24,7 @@ Todos los textos de la landing y de la pieza para redes, en un solo lugar. Si ca
 - **Título:** Vende *aprendizaje* que tus clientes ya necesitan.
 - **Bajada:** Suma UBITS Aprendizaje a tu portafolio y gana **hasta 25% de comisión** por cada licencia que vendas. Tú cierras, implementas y te quedas con el cliente; nosotros te respaldamos.
 - **Botones:** Quiero ser reseller → · Ver cómo funciona
-- **Prueba:** +1.000 empresas · +16.000 contenidos en español · Vende en toda Latinoamérica
+- **Prueba:** +1.000 empresas · +19.000 contenidos en español · Vende en toda Latinoamérica
 
 ### Logos
 - Empresas que ya aprenden con UBITS
@@ -43,7 +43,7 @@ Todos los textos de la landing y de la pieza para redes, en un solo lugar. Si ca
 - **Título:** Un producto que se vende mejor cuando lo ven.
 - **Bajada:** UBITS Aprendizaje es la plataforma con la que +1.000 empresas de América Latina forman a su gente. Lo presentas en una demo y se explica solo.
 - Tarjetas:
-  1. **+16.000 contenidos en español** — Hechos para la realidad de América Latina, no traducciones genéricas.
+  1. **+19.000 contenidos en español** — Hechos para la realidad de América Latina, no traducciones genéricas.
   2. **LMS propio** — La empresa sube sus cursos, arma rutas por área y entrega certificados.
   3. **Cursos con IA** — Convierte los documentos de la empresa en cursos listos en minutos.
   4. **App para iOS y Android** — Los equipos operativos aprenden desde el celular, sin computador ni correo.
@@ -86,7 +86,7 @@ Todos los textos de la landing y de la pieza para redes, en un solo lugar. Si ca
 
 ### Preguntas frecuentes
 - **Título:** Lo que nos preguntan antes de aplicar.
-1. **¿Qué vendo exactamente?** — UBITS Aprendizaje: el catálogo de +16.000 contenidos, el LMS para cursos propios, la creación de cursos con IA y la app. Es una licencia anual por empresa.
+1. **¿Qué vendo exactamente?** — UBITS Aprendizaje: el catálogo de +19.000 contenidos, el LMS para cursos propios, la creación de cursos con IA y la app. Es una licencia anual por empresa.
 2. **¿Cuánto puedo ganar?** — Ganas 20% de comisión en contratos a 1 año y 25% en contratos multianuales, desde 2 años. Se calcula sobre el valor efectivamente vendido.
 3. **¿Quién pone el precio?** — Tú. Te damos una tarifa de partners con precio de lista y precio mínimo por número de usuarios. Cotizas entre los dos; por debajo del mínimo no se cotiza.
 4. **¿Necesito experiencia vendiendo software?** — No. Si ya le vendes a empresas, tienes lo más difícil: la relación. Nosotros te enseñamos el producto, cómo venderlo y cómo implementarlo.
@@ -117,14 +117,14 @@ Todos los textos de la landing y de la pieza para redes, en un solo lugar. Si ca
 - **Bajada:** Suma **UBITS Aprendizaje** a tu portafolio y **gana por cada licencia** que vendas.
 - **Círculos:** banderas de México, Colombia, Chile y Perú + círculo «+» · leyenda: Vende en **toda Latinoamérica**
 - **Cifra grande:** Hasta **25%** de comisión
-- **Lo que recibes:** Formación · para vender e implementar | Soporte · técnico de nivel 2 | +16.000 · contenidos para vender
+- **Lo que recibes:** Formación · para vender e implementar | Soporte · técnico de nivel 2 | +19.000 · contenidos para vender
 - **Botón:** ¡Quiero ser reseller!
 
 ### Texto para la publicación (LinkedIn / Instagram)
 
 > ¿Le vendes a empresas? Entonces ya tienes lo más difícil: la relación. 🤝
 >
-> Abrimos el **Programa de Resellers UBITS**. Suma UBITS Aprendizaje a tu portafolio —+16.000 contenidos en español, LMS propio y app— y gana **hasta 25% de comisión** por cada licencia que vendas.
+> Abrimos el **Programa de Resellers UBITS**. Suma UBITS Aprendizaje a tu portafolio —+19.000 contenidos en español, LMS propio y app— y gana **hasta 25% de comisión** por cada licencia que vendas.
 >
 > ✅ 20% en contratos a 1 año, 25% desde 2 años
 > ✅ Capacitación comercial

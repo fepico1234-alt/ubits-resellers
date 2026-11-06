@@ -107,27 +107,38 @@ svg.i{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-widt
 .win-bar span{margin:0 auto;font-size:12px;color:var(--mute);background:#fff;border:1px solid var(--line);border-radius:8px;padding:2px 12px;transform:translateX(-14px)}
 .win img{width:100%;height:auto}
 
-/* celular (vista de la app reconstruida con los mismos cursos) */
-.phone{position:absolute;right:-8px;bottom:0;width:210px;padding:8px;border-radius:36px;background:#0b0d14;box-shadow:0 40px 70px -30px rgba(10,15,40,.55),0 0 0 1px rgba(255,255,255,.08) inset}
-.ph-screen{position:relative;border-radius:28px;background:#fff;overflow:hidden;padding:10px 12px 44px;display:grid;gap:6px;font-size:10px;line-height:1.3;color:var(--ink)}
-.ph-status{display:flex;justify-content:space-between;align-items:center;font-size:10px;padding:0 4px 4px}
-.ph-status span{width:54px;height:16px;border-radius:999px;background:#0b0d14;position:absolute;left:50%;top:6px;transform:translateX(-50%)}
-.ph-hi{margin:4px 0 0;color:var(--mute)}
-.ph-h{margin:0 0 4px;font-size:13px;font-weight:600;letter-spacing:-.02em;line-height:1.2}
-.ph-card{border:1px solid var(--line);border-radius:14px;padding:6px 6px 10px;display:grid;gap:3px}
-.ph-card img{width:100%;height:78px;object-fit:cover;border-radius:10px;margin-bottom:4px}
-.ph-card small{color:var(--primary);font-weight:600;font-size:9px;padding:0 2px}
-.ph-card b{font-weight:600;font-size:11px;padding:0 2px}
-.ph-bar{height:4px;border-radius:999px;background:var(--bg-3);margin:4px 2px 0;overflow:hidden}
-.ph-bar i{display:block;height:100%;background:var(--primary);border-radius:inherit}
-.ph-sec{margin:6px 0 0;font-weight:600;font-size:11px}
-.ph-row{display:grid;grid-template-columns:40px minmax(0,1fr);gap:8px;align-items:center}
-.ph-row img{width:40px;height:40px;border-radius:10px;object-fit:cover}
-.ph-row b{display:block;font-weight:600;font-size:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ph-row small{color:var(--mute);font-size:9px}
-.ph-tabs{position:absolute;left:0;right:0;bottom:0;height:36px;border-top:1px solid var(--line);background:#fff;display:flex;justify-content:space-around;align-items:center}
-.ph-tabs i{width:16px;height:16px;border-radius:5px;background:var(--bg-3)}
-.ph-tabs i.on{background:var(--primary)}
+/* celular: pantalla «Aprende» igual a la de ubits-web, alineada con app-mobile-ubits.
+   Se diseña a 320 px (tamaño real del prototipo) y se escala para la portada. */
+.phone{position:absolute;right:-8px;bottom:0;width:320px;aspect-ratio:9/19.3;border-radius:52px;background:#111216;padding:10px;box-shadow:0 0 0 1.5px #2b2d33,0 60px 100px -40px rgba(10,20,60,.45),inset 0 0 0 2px #34363d;transform:scale(.66);transform-origin:100% 100%}
+.phone::before{content:"";position:absolute;top:22px;left:50%;transform:translateX(-50%);width:96px;height:28px;border-radius:20px;background:#000;z-index:3}
+.ap{position:relative;height:100%;border-radius:42px;overflow:hidden;background:#f7f7f8;display:flex;flex-direction:column;font-size:12px;line-height:1.4;color:#303a47}
+.ap .i{width:14px;height:14px}
+.ap-h{background:linear-gradient(135deg,#04101f,#0c5bef 70%,#00caff);padding:68px 18px 16px;border-radius:0 0 22px 22px;margin-bottom:10px}
+.ap-h small{color:#bcd0f5;font-size:11.5px}
+.ap-h b{display:block;color:#fff;font-weight:600;font-size:20px;letter-spacing:-.025em;line-height:1.15}
+.ap-search{margin-top:10px;height:38px;border-radius:12px;background:#fff;border:1px solid var(--line);display:flex;align-items:center;gap:8px;padding:0 12px;color:#71717a;font-size:12px}
+.ap-b{flex:1;padding:0 12px;display:flex;flex-direction:column;gap:8px;overflow:hidden}
+.ap-sec{display:flex;justify-content:space-between;align-items:center;font-weight:500;font-size:14px;padding:6px 4px 0;color:var(--ink)}
+.ap-sec span{width:22px;height:22px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center}
+.ap-sec span .i{width:12px;height:12px}
+.ap-zone{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.ap-zone .z{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px}
+.ap-zone small{font-size:10px;color:var(--mute)}
+.ap-zone b{display:block;font-size:12px;font-weight:600;margin:2px 0 8px;line-height:1.25;color:var(--ink)}
+.ap-bar{height:5px;border-radius:9px;background:var(--bg-3);overflow:hidden}
+.ap-bar i{display:block;height:100%;border-radius:9px;background:var(--primary)}
+.ap-zone span{display:flex;justify-content:space-between;font-size:10px;color:var(--mute);margin-top:4px}
+.ap-zone em{font-style:normal}.ap-zone strong{font-weight:600;color:var(--ink)}
+.ap-uni{border-radius:12px;padding:12px;background:linear-gradient(135deg,#0c5bef,#6d28d9);color:#fff}
+.ap-uni small{font-size:10px;opacity:.8}.ap-uni b{display:block;font-size:12px;font-weight:600;margin-top:2px}
+.ap-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:10px 12px}
+.ap-card small{font-size:10.5px;color:var(--mute)}.ap-card small span{color:#0c5bef}
+.ap-card b{display:block;font-size:12px;font-weight:600;margin:3px 0;color:var(--ink)}
+.ap-card .tags{display:flex;gap:10px;font-size:10.5px;color:var(--mute)}
+.ap-tab{display:flex;justify-content:space-around;padding:10px 8px 22px;background:#fff;border-top:1px solid var(--line);font-size:10px;color:var(--mute);margin-top:auto}
+.ap-tab span{display:grid;justify-items:center;gap:3px}
+.ap-tab .i{width:18px;height:18px}
+.ap-tab span.on{color:var(--primary);font-weight:600}
 
 /* tarjetas flotantes */
 .float{position:absolute;display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:18px;padding:12px 16px 12px 12px;box-shadow:var(--shadow-3);font-size:14px;line-height:1.3;white-space:nowrap;z-index:2}
@@ -150,12 +161,7 @@ svg.i{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-widt
 @media (max-width:520px){
   .hero{padding-top:calc(env(safe-area-inset-top,0px) + 104px)}
   .hero-art{padding:24px 44px 64px 0}
-  .phone{width:150px;padding:6px;border-radius:28px;transform:none}
-  .ph-screen{border-radius:22px;padding:8px 8px 34px;gap:4px;font-size:8px}
-  .ph-status{font-size:8px}.ph-status span{width:40px;height:12px}
-  .ph-h{font-size:10px}.ph-card img{height:52px}.ph-card b,.ph-sec{font-size:9px}.ph-card small,.ph-row small{font-size:7.5px}
-  .ph-row{grid-template-columns:28px minmax(0,1fr);gap:6px}.ph-row img{width:28px;height:28px;border-radius:7px}.ph-row b{font-size:8px}
-  .ph-tabs{height:28px}.ph-tabs i{width:12px;height:12px}
+  .phone{transform:scale(.47);right:-12px}
   .float{font-size:12px;padding:8px 12px 8px 8px;gap:8px}
   .float img{width:30px;height:30px}
   .f1{top:0;left:-4px}.f3{bottom:8px;left:-4px}
