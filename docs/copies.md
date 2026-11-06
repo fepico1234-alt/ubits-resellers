@@ -114,9 +114,10 @@ Todos los textos de la landing y de la pieza para redes, en un solo lugar. Si ca
 
 - **Logo:** UBITS + insignia **PARTNERS**
 - **Tarjeta principal:** Programa de **Resellers** | ¿Y si **vendieras aprendizaje** a las empresas que ya conoces?
-- **Bajada:** Suma **UBITS Aprendizaje** a tu portafolio y gana por cada licencia que vendas.
+- **Bajada:** Suma **UBITS Aprendizaje** a tu portafolio y **gana por cada licencia** que vendas.
+- **Círculos:** banderas de México, Colombia, Chile y Perú + círculo «+» · leyenda: Vende en **toda Latinoamérica**
 - **Cifra grande:** Hasta **25%** de comisión
-- **Lo que ganas:** 20% · Contrato a 1 año | 25% · Contrato desde 2 años | +16.000 · contenidos para vender
+- **Lo que recibes:** Formación · para vender e implementar | Soporte · técnico de nivel 2 | +16.000 · contenidos para vender
 - **Botón:** ¡Quiero ser reseller!
 
 ### Texto para la publicación (LinkedIn / Instagram)
