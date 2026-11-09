@@ -208,6 +208,10 @@ body{font-family:'Inter Variable',Inter,system-ui,sans-serif;color:var(--ink);-w
   if (f === 'land') {
     document.querySelectorAll('.mid, .row').forEach((w) => { w.replaceWith(...w.children); });
   }
+  // ?svg convierte la pieza en un SVG editable para Figma (lo usa exportar.sh).
+  if (new URLSearchParams(location.search).has('svg')) {
+    const s = document.createElement('script'); s.src = 'svg.js'; document.body.append(s);
+  }
 </script>
 </body>
 </html>

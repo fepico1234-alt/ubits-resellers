@@ -11,7 +11,7 @@ Landing y piezas para redes que invitan a empresas y profesionales de América L
 | Pieza | Qué es | Dónde está |
 |---|---|---|
 | **Landing** | Página única con el programa, las comisiones y un formulario para aplicar | [`site/`](site/) |
-| **Piezas para redes** | La invitación en 3 formatos: LinkedIn, Instagram e historias | [`redes/export/`](redes/export/) |
+| **Piezas para redes** | La invitación en 3 formatos: LinkedIn, Instagram e historias. En PNG para publicar y en SVG para editar en Figma | [`redes/export/`](redes/export/) |
 | **Textos** | Todos los textos de la landing, de las piezas y de la publicación en redes | [`docs/copies.md`](docs/copies.md) |
 
 <p>
@@ -100,7 +100,14 @@ Después de un cambio, vuelve a exportarlas (necesita Google Chrome):
 bash redes/exportar.sh
 ```
 
-Los PNG salen a doble resolución en `redes/export/`. El texto sugerido para la publicación está en [`docs/copies.md`](docs/copies.md).
+Salen dos archivos por formato en `redes/export/`:
+
+- **PNG** a doble resolución: para publicar en redes.
+- **SVG**: para que diseño lo abra en Figma (arrastra el archivo al lienzo). Los textos llegan como texto editable en Inter, las formas con sus degradados y sombras, y las capas con nombre (`tarjeta-principal`, `comision`, `boton`…). Las redes sociales no aceptan SVG; para publicar usa el PNG.
+
+Si un cambio se hace en Figma, hay que pasarlo también a `redes/pieza-resellers.html`; si no, la próxima exportación lo pisa. El SVG necesita `python3` (viene con macOS) y lo arma [`redes/svg.js`](redes/svg.js); no hace falta tocarlo para cambiar textos.
+
+El texto sugerido para la publicación está en [`docs/copies.md`](docs/copies.md).
 
 ---
 
@@ -122,8 +129,9 @@ ubits-resellers/
 │       └── og.png                 Imagen al compartir el link
 ├── redes/
 │   ├── pieza-resellers.html       Piezas para redes (3 formatos)
-│   ├── exportar.sh                Exporta los PNG
-│   └── export/                    PNG listos para publicar
+│   ├── exportar.sh                Exporta los PNG y los SVG
+│   ├── svg.js, guardar-svg.py     Arman el SVG editable para Figma
+│   └── export/                    PNG para publicar y SVG para Figma
 ├── docs/
 │   ├── copies.md                  Todos los textos
 │   └── img/                       Imágenes de este README
